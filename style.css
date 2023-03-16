@@ -1,259 +1,107 @@
+/* Set background color to light blue */
 body {
-font-family: Arial, sans-serif;
-margin: 0;
-padding: 0;
-background-color: #f9f9f9;
+  background-color: #F0F8FF;
+}
+
+/* Set header styles */
+header {
+  background-color: #3b5998;
+  color: #fff;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
 h1 {
-font-size: 36px;
-font-weight: bold;
-text-align: center;
-margin-top: 20px;
-margin-bottom: 20px;
-color: #800000;
+  font-size: 36px;
+  margin: 0;
 }
 
-h2 {
-font-size: 24px;
-font-weight: bold;
-color: #800000;
-}
-
-ul {
-list-style: none;
-margin: 0;
-padding: 0;
-}
-
-li {
-margin-bottom: 10px;
-}
-
-p {
-margin-bottom: 10px;
-}
-
-a {
-color: #800000;
-text-decoration: none;
-}
-
-a:hover {
-text-decoration: underline;
-}
-
-#header {
-background-color: #800000;
-color: #fff;
-padding: 20px;
-}
-
-#header h1 {
-margin: 0;
-}
-
-#contact-info {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#contact-info h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-#experience {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#experience h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-#education {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#education h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-#skills {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#skills h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-#additional-info {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#additional-info h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-#references {
-background-color: #fff;
-color: #800000;
-padding: 20px;
-margin-bottom: 20px;
-}
-
-#references h2 {
-margin-top: 0;
-margin-bottom: 10px;
-}
-
-/* Main section */
-main {
+#qr-button {
   background-color: #fff;
-  border-radius: 10px;
-  padding: 20px;
-  margin: 30px auto;
-  max-width: 800px;
-  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
-}
-
-/* Heading section */
-h1, h2 {
-  text-align: center;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #4B0082;
-}
-
-/* Personal Information section */
-ul li {
-  margin: 10px 0px;
+  border: none;
+  color: #3b5998;
+  padding: 10px 20px;
   font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
+  cursor: pointer;
 }
 
-/* Experience section */
-h3 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #4B0082;
-}
-
-.experience-item {
-  margin: 20px 0px;
-  padding: 10px;
-  border-left: 5px solid #4B0082;
-  background-color: #fff;
-  color: #333;
-}
-
-.experience-item p {
-  margin: 10px 0px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.experience-item h4 {
-  margin: 0px;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Education section */
-.education-item {
-  margin: 20px 0px;
-  padding: 10px;
-  border-left: 5px solid #4B0082;
-  background-color: #fff;
-  color: #333;
-}
-
-.education-item p {
-  margin: 10px 0px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.education-item h4 {
-  margin: 0px;
-  font-size: 18px;
-  font-weight: bold;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-/* Skills section */
-h2 {
-  font-size: 20px;
-  font-weight: bold;
-  margin: 20px 0px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #4B0082;
-}
-
-.skills-item {
-  margin: 10px 0px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  color: #333;
-}
-
-/* Additional Information section */
-.additional-item {
-  margin: 20px 0px;
-  padding: 10px;
-  border-left: 5px solid #4B0082;
-  background-color: #fff;
-  color: #333;
-}
-
-.additional-item p {
-  margin: 10px 0px;
-  font-size: 16px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.additional-item h4 {
-  margin: 0px;
-  font-size: 18px;
-  font-weight
-
-}
-
+/* Set QR code styles */
 #qr-code {
-	display: none;
-	position: fixed;
-	top: 0;
-	right: 0;
-	padding: 10px;
-	background-color: #ffffff;
-	box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-	z-index: 9999;
+  display: none;
+  justify-content: center;
+  margin-top: 20px;
 }
 
 #qr-code img {
-	max-width: 100%;
-	height: auto;
+  width: 200px;
+  height: 200px;
 }
 
-  
+/* Set contact info styles */
+p {
+  margin: 10px 0;
+}
+
+/* Set experience section styles */
+h2 {
+  color: #3b5998;
+  font-size: 28px;
+  border-bottom: 2px solid #3b5998;
+  padding-bottom: 10px;
+  margin-top: 40px;
+}
+
+h3 {
+  color: #3b5998;
+  font-size: 22px;
+  margin-top: 20px;
+}
+
+ul {
+  margin-left: 20px;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Set education section styles */
+h2:nth-of-type(2) {
+  margin-top: 80px;
+}
+
+h2:nth-of-type(2) + h3 {
+  margin-top: 40px;
+}
+
+/* Set awards and honors styles */
+h3:nth-of-type(2) {
+  margin-top: 20px;
+}
+
+/* Set skills section styles */
+h2:nth-of-type(3) {
+  margin-top: 80px;
+}
+
+/* Set additional information section styles */
+h2:nth-of-type(4) {
+  margin-top: 80px;
+}
+
+/* Set references section styles */
+h2:nth-of-type(5) {
+  margin-top: 80px;
+}
+
+/* Set link styles */
+a {
+  color: #3b5998;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
